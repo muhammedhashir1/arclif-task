@@ -20,12 +20,27 @@ const Banner = () => {
             you're trying to land clients.
           </span>
         </h3>
-        <div className='btn'>
-        <button className='btn1'>Login</button>
-        <button className='btn2'>Signup</button>
-        </div>
-        
+
+        <button className="btn1">Login</button>
+        <button className="btn2">Signup</button>
       </Container>
+
+      {/* <div className="icons">   
+          <div>
+            <img src={ICON1} className='icon1' alt="icon1.png" />
+            <h4>First impression matter</h4>
+            <small>especially when you're trying to land clients.</small>
+          </div>
+          <div>
+            <img src={ICON2} className='icon2' alt="icon2.png" />
+            <h4>First impression matter</h4>
+            <small>especially when you're trying to land clients.</small>
+          </div>
+          <div>
+            <img src={PERSON} className='icon3' alt="" />
+          </div>
+      </div> */}
+      
     </div>
   );
 };
