@@ -1,7 +1,11 @@
+
+import NavBar from './Components/NavBar/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
-    <div className="App">
-      <h1>haai</h1>
+    <div>
+      <NavBar/>
     </div>
   );
 }
