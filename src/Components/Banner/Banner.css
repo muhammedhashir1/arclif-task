@@ -1,0 +1,41 @@
+.para1Main{
+    
+    font-weight: 400;
+    font-size: 26.6968px;
+    line-height: 36px;
+    color: #DC8015;
+}
+.para1{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 10px;
+    color:#717985;
+}
+.para2Main{
+    color:#112C56;
+    font-size: 35px;
+}
+.para2{
+    font-weight: 400;
+}
+
+.btn1{
+    width: 150.17px;
+height: 49.22px;
+left: 110px;
+top: 355px;
+color: white;
+background: #112C56;
+border-radius: 6.67421px;
+}
+.btn2{
+    width: 150.17px;
+height: 49.22px;
+left: 288.54px;
+top: 355px;
+margin-left: 10px;
+color: #112C56;
+border: 1.33484px solid #112C56;
+border-radius: 6.67421px;
+}
