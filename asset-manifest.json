@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/arclif-task/static/css/main.886535df.css",
+    "main.js": "/arclif-task/static/js/main.b3d492ec.js",
+    "static/media/person.png": "/arclif-task/static/media/person.6794781fcbd79e6e9cbc.png",
+    "static/media/gp.png": "/arclif-task/static/media/gp.609afac0d1fbc115310e.png",
+    "static/media/as.png": "/arclif-task/static/media/as.e8046ecc2c6244352581.png",
+    "index.html": "/arclif-task/index.html",
+    "main.886535df.css.map": "/arclif-task/static/css/main.886535df.css.map",
+    "main.b3d492ec.js.map": "/arclif-task/static/js/main.b3d492ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.886535df.css",
+    "static/js/main.b3d492ec.js"
+  ]
+}
