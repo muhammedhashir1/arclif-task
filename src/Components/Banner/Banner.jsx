@@ -48,8 +48,8 @@ const Banner = () => {
           <input type="password" className="inputPsw" placeholder="Password" />
           <a href="/forgot-password" className='forgot'>forgot password</a>
           
-          <p className="login" onsubmit  onClick={()=>{
-            setOpenModel(false)}} >Login</p>
+          <button className="login" onsubmit  onClick={()=>{
+            setOpenModel(false)}} >Login</button>
         </div>
       </div>
       }
