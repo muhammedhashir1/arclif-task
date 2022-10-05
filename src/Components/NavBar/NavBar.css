@@ -1,11 +1,13 @@
 .consultant{
     width: 97.01px;
-    height: 39.22px;
     border: 1.33484px solid #DC8015;
     border-radius: 6.67421px;
 }
 .nav-color{
     color: #DC8015;
+}
+.nav-color-home{
+    color: #112C56;
 }
 .navbar{
     border: solid 1px #ECECEC;

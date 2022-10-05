@@ -23,7 +23,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>
               <Nav.Link href="#home">
-                <h6 className="nav-color">Home</h6>
+                <h6 className="nav-color-home">Home</h6>
               </Nav.Link>
               <Nav.Link href="#Whatwedo">
                 <h6 className="nav-color">What we do</h6>
