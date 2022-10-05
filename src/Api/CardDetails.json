@@ -1,0 +1,32 @@
+[
+    {
+        "id":0,
+        "image":"images/card1.png",
+        "title":"to land clients"
+    },
+    {
+        "id":1,
+        "image":"images/card2.png",
+        "title":"to land clients"
+    },
+    {
+        "id":2,
+        "image":"images/card3.png",
+        "title":"to land clients"
+    },
+    {
+        "id":3,
+        "image":"images/card4.png",
+        "title":"to land clients"
+    },
+    {
+        "id":4,
+        "image":"images/card5.png",
+        "title":"to land clients"
+    },
+    {
+        "id":5,
+        "image":"images/card6.png",
+        "title":"to land clients"
+    }
+]

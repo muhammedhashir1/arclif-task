@@ -1,0 +1,29 @@
+.cards-section{
+    margin-top: 50px;
+}
+.main{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.cardItem-container{
+    padding-left: 15px;
+    
+}
+.card-item{
+    width: 100%;
+    margin-top: 75px;
+    padding-left: 10px;
+    
+}
+
+.cardItem-img{
+    width: 192.3px;
+    height: 192.3px;
+}
+h6{
+   padding-top: 10px;
+}
