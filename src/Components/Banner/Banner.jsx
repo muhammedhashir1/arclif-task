@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
+import LOGO from "../../Assets/logo.png";
+import { AiFillCloseCircle } from "react-icons/ai";
 import "./Banner.css";
 
 const Banner = () => {
+  const [openModal, setOpenModel] = useState(false)
   return (
     <div>
       <Container>
@@ -21,28 +24,37 @@ const Banner = () => {
           </span>
         </h3>
 
-        <button className="btn1">Login</button>
+        <button className="btn1" onClick={()=>{
+          setOpenModel(true)
+        }}>Login</button>
         <button className="btn2">Signup</button>
       </Container>
-
-      {/* <div className="icons">   
-          <div>
-            <img src={ICON1} className='icon1' alt="icon1.png" />
-            <h4>First impression matter</h4>
-            <small>especially when you're trying to land clients.</small>
-          </div>
-          <div>
-            <img src={ICON2} className='icon2' alt="icon2.png" />
-            <h4>First impression matter</h4>
-            <small>especially when you're trying to land clients.</small>
-          </div>
-          <div>
-            <img src={PERSON} className='icon3' alt="" />
-          </div>
-      </div> */}
-      
+      {
+      openModal &&
+      <div className="popup">
+        <div className="popup-header">
+          <img src={LOGO} className="loginLogo" alt="" />
+          <h5>Login</h5>
+          <AiFillCloseCircle size={20} onClick={()=>{
+            setOpenModel(false)
+          }} />
+        </div>
+        <div className="popup-body">
+          <input
+            type="phone"
+            className="inputPhone"
+            placeholder="Mobile Number"
+          />
+          <input type="password" className="inputPsw" placeholder="Password" />
+          <p className="forgot">Forgot Password?</p>
+          <p className="login" onClick={()=>{
+            setOpenModel(false)}} >Login</p>
+        </div>
+      </div>
+      }
     </div>
   );
 };
+
 
 export default Banner;

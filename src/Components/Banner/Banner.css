@@ -51,13 +51,91 @@
 }
 .icon1{
     width: 55.03px;
-height: 47.88px;
-left: 110px;
-top: 552px;
+    height: 47.88px;
+    left: 110px;
+    top: 552px;
 }
 .icon3{
     width: 573.02px;
-height: 521.09px;
-left: 1035.94px;
-top: 139.26px;
+    height: 521.09px;
+    left: 1035.94px;
+    top: 139.26px;
 }
+.popup{
+    position: absolute;
+    margin-left: 7%;
+    width: 477px;
+    height:370.97px;
+    left: 558px;
+    top: 250.03px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.65373px 3.65373px rgba(0, 0, 0, 0.25);
+    border-radius: 8.22089px;
+    text-align: center;
+}
+.popup-header{
+    width: 478px;
+    height: 96.04px;
+    left: 558px;
+    top: 250.03px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D8DFEB;
+    border-radius: 8.22089px 8.22089px 0px 0px;
+    
+}
+.loginLogo{
+    width: 167.21px;
+    height: 30.14px;
+    left: 594.54px;
+    top: 280.18px;
+}
+.popup-header h5{
+    font-weight: 600;
+    font-size: 16.4418px;
+    color: #DC8015;
+}
+.popup-body{
+        display: grid;
+        justify-content: center;
+        padding-top: 50px;
+}
+.inputPhone{
+    width: 423px;
+height: 52.91px;
+border: none;
+}
+.inputPsw{
+    width: 423px;
+height: 52.91px;
+margin-top: 10px;
+border: none;
+}
+.forgot{
+    text-align: end;
+}
+.login{
+    width: 422px;
+    height: 50px;
+    background: linear-gradient(90deg, #112C56 -4.5%, #DC8015 132.98%);
+    color: #D8DFEB;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/* .inputPhone{
+    width: 517px;
+height: 0.91px;
+left: 607.33px;
+top: 447.33px;
+}
+.inputPsw{
+    width: 517px;
+    height: 0.91px;
+    left: 607.33px;
+    top: 447.33px;
+    background: #D9D9D9;
+} */
