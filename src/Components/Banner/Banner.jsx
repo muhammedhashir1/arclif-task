@@ -46,8 +46,9 @@ const Banner = () => {
             placeholder="Mobile Number"
           />
           <input type="password" className="inputPsw" placeholder="Password" />
-          <p className="forgot">Forgot Password?</p>
-          <p className="login" onClick={()=>{
+          <a href="/forgot-password" className='forgot'>forgot password</a>
+          
+          <p className="login" onsubmit  onClick={()=>{
             setOpenModel(false)}} >Login</p>
         </div>
       </div>
