@@ -1,0 +1,146 @@
+/* .bannerbottom{
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    background: #112C56;
+    color: #fff;
+    
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.ban-btm-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.ban-btm-one{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.icon1{
+    width: 32.03px;
+    height: 28.88px;
+}
+.icon2{
+    width: 32.03px;
+    height: 28.88px;
+}
+.ban-btm-text1 h4{
+    font-weight: 600;
+font-size: 22.0136px;
+}
+
+
+
+.ban-btm-pic{
+    margin-left: 160px;
+}
+
+
+
+.icon3{
+    width: 530px;
+    height: 555px;
+    margin-top: -316.74px;
+    margin-left: 160px;
+} */
+
+/* .bannerbottom{
+    display:grid;
+    margin-top: 50px;
+    width: 100%;
+    height: 172px;
+    left: -27px;
+    padding-top: 50px;
+    color: antiquewhite;
+    background: #112C56; 
+}
+.ban-btm-main-flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.icon3{
+    width: 530px;
+    height: 545px;
+    margin-top: -417px;
+    margin-left: 130px;
+}
+.ban-btm-one h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.ban-btm-one small{
+    font-weight: 400;
+    font-size: 15px;
+}
+.icon1{
+    width: 55.03px;
+    height: 47.88px;
+}
+.icon2{
+    width: 55.03px;
+    height: 47.88px;
+}
+.ban-btm-set{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+
+.bannerBottomMain{
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    margin-top: 75px;
+    background: #112C56;
+    color: white;
+    align-items: center;
+    padding-top: 50px;
+}
+.bannerBottomFlex{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.bannerBottomOne{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bannerBottomOne .icon1{
+    width: 40px;
+    height: 45px;
+    
+}
+.bannerBottomOne h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.bannerBottomOne small{
+    font-weight: 400;
+    font-size: 13px;
+}
+.icon3{
+    width: 350px;
+    margin-top: -200px;
+    /* margin-top: -393.74px;
+    margin-right: -107px; */
+} 
+@media screen and (max-width: 600px){
+    .icon3{
+      display: none;
+    }
+    .bannerBottomFlex{
+        display: block;
+        align-items: center;
+        gap: 16px;
+    }
+    .bannerBottomOne{
+        padding-top: 2rem;
+    }
+}
